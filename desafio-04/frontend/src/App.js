@@ -56,7 +56,7 @@ export default function App() {
 
   return (
     <div>
-      <h1 className="center">Controle de Notas</h1>
+      <h1 className="center">Saudações-Controle de Notas</h1>
 
       {allGrades.length === 0 && <Spinner />}
       {allGrades.length > 0 && (
